@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <audio id="click-sound" src="sound/click.wav"></audio>
+
+    <!--Page Title-->
+    <title>Comme</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#about">GALLERY</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">CATEGORIES</a>
+                            </li>
+                            <li>
+                                <a href="#contacts">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+    </header>
+
+        <!--Banner Content-->
+        <div class="row clearfix">
+            <img id="imageElement" src="" alt="Image" class="col-2 featured wow fadeInUp" data-wow-delay="0.3s">
+        
+            <script>
+                // Get the image source URL from the query parameter
+                const params = new URLSearchParams(window.location.search);
+                const imageSrc = params.get("imageSrc");
+                
+                // Set the src attribute of the image element
+                document.getElementById("imageElement").src = imageSrc;
+            </script>    
+                
+            <div class="pricing-block featured wow fadeInUp" data-wow-delay="0.6s" >
+                        <div class="section-heading">
+                            <div>
+                                <p class="new-section-title"> DESIGN NAME</p>
+                                <p class="new-subsection-title">  GENRE</p>
+                                <p><i>By Designer A.</i></p>
+                            </div>
+                            <hr class="new-hr">
+                            <p class="section-subtitle">
+                                <b>
+                                    Title: "Elegance Unveiled: The Enchanted Gown"
+                                </b>
+                                <br>
+                                In the world of fashion, "The Enchanted Gown" by Isabella Lacroix is a masterpiece of elegance and enchantment.
+                                <br>
+                                <br>
+                                <b>
+                                    Inspiration:
+                                </b>
+                                <br>
+                                Inspired by the grace of classical ballet and the romance of Paris, this gown captures the fluidity of dance and timeless beauty.
+                                <br>
+                                <b>
+                                    Design and Craftsmanship:
+                                </b>
+                                <br>
+                                Hand-stitched lace detailing, soft pastel hues, and meticulous craftsmanship define this piece.
+                                <br>
+                                <b>
+                                    Runway Debut:
+                                </b>
+                                <br>
+                                Unveiled at Paris Fashion Week, the gown earned accolades for its ethereal charm and delicacy.
+                                <br>
+                                <b>
+                                    Influence and Legacy:
+                                </b>
+                                <br>
+                                It has since become an iconic symbol, shaping contemporary bridal and eveningwear fashion.
+                                <br>
+                                <b>
+                                    Artistic Significance:
+                                </b>
+                                <br>
+                                "The Enchanted Gown" stands as a testament to Isabella Lacroix's artistic brilliance, captivating hearts and gracing dreams.
+                            </p>
+                        </div>
+    
+            </div>
+            <div class="pricing-block featured wow fadeInUp" data-wow-delay="0.8s" >
+                <b>
+                    <a href="javascript:history.back()">Go back to the previous page</a>
+                </b>
+            </div>
+
+
+        </div>
+            
+
+    
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+            <div class="col-3">
+                LANDING PAGE <br>
+                GALLERY <br>
+                CATEGORY <br>
+                <br>
+                SHIPPING & RETURNS <br>
+                TERMS OF USE <br>
+                PRIVACY POLICY <br>
+                PREFERENCES <br>
+            </div>
+            <div class="col-3">
+                <hr>
+                <b>MORE COMME</b> <br>
+                 
+                <ul class="col-1 social-icons">
+                    <li>
+                        <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                            <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                            <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                            <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="behance" href="http://www.behance.net">
+                            <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-3">
+                <hr>
+                <b>NEWSLETTER</b> <br>
+
+                Get our emails. Letters from our designers, 
+                new sneak peeks, merch, and more. Not too often — 
+                just enough.
+
+                <input type="text" name="" class="footer-text" placeholder="Email">
+                <button>Submit</button>
+
+            </div>
+
+            <div class="col-1">
+                © 2023 Condé Nast. All rights reserved. Use of this site constitutes acceptance of our User Agreement and Privacy Policy and Cookie Statement and Your California Privacy Rights. Vogue may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/category-btn.js"></script>
+<script src="js/audio.js"></script>
+
+
+</body>
+</html>
